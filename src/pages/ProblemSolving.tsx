@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { PlusCircle, Trash2, Brain, ArrowRight, CheckCircle2, AlertCircle, HelpCircle } from 'lucide-react'
+import { PlusCircle, Trash2, Brain, ArrowRight, CheckCircle2, HelpCircle } from 'lucide-react'
 import { ProblemSolution } from '../types'
 import { PastSolutions } from '../components/PastSolutions'
 
