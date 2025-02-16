@@ -16,7 +16,8 @@ export function useWorries() {
       id: crypto.randomUUID(),
       content,
       createdAt: new Date().toISOString(),
-      isDealtWith: false
+      isDealtWith: false,
+      status: 'new'
     }
     setWorries(prev => [newWorry, ...prev])
   }

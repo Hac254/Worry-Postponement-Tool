@@ -8,7 +8,7 @@ export function Learn() {
       <div className="space-y-8">
         <section className="bg-white p-6 rounded-lg shadow-sm border border-purple-100">
           <div className="flex items-center gap-3 mb-4">
-            <Brain className="text-pink-500" size={24} />
+            <Brain className="text-purple-500" size={24} />
             <h2 className="text-xl font-semibold text-gray-800">The Science Behind It</h2>
           </div>
           <div className="space-y-4 text-gray-600">
@@ -27,7 +27,7 @@ export function Learn() {
 
         <section className="bg-white p-6 rounded-lg shadow-sm border border-purple-100">
           <div className="flex items-center gap-3 mb-4">
-            <Clock className="text-pink-500" size={24} />
+            <Clock className="text-purple-500" size={24} />
             <h2 className="text-xl font-semibold text-gray-800">How It Works</h2>
           </div>
           <div className="space-y-4 text-gray-600">
@@ -48,28 +48,24 @@ export function Learn() {
 
         <section className="bg-white p-6 rounded-lg shadow-sm border border-purple-100">
           <div className="flex items-center gap-3 mb-4">
-            <CheckCircle className="text-pink-500" size={24} />
-            <h2 className="text-xl font-semibold text-gray-800">Best Practices</h2>
+            <CheckCircle className="text-purple-500" size={24} />
+            <h2 className="text-xl font-semibold text-gray-800">Decision Tree</h2>
           </div>
-          <div className="space-y-4 text-gray-600">
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <div className="shrink-0 w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center text-orange-500">1</div>
-                <p>Choose a worry time that's not too close to bedtime</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="shrink-0 w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center text-orange-500">2</div>
-                <p>Stick to your scheduled worry time consistently</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="shrink-0 w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center text-orange-500">3</div>
-                <p>Use the reflection process to gain insights about your worry patterns</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="shrink-0 w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center text-orange-500">4</div>
-                <p>Practice self-compassion throughout the process</p>
-              </li>
+          <div className="space-y-4">
+            <p className="text-gray-600">
+              During worry time, you'll use a decision tree to help determine if a worry needs immediate attention.
+              You'll be asked:
+            </p>
+            <ul className="list-disc list-inside space-y-2 ml-4 text-gray-600">
+              <li>Is this thing happening now?</li>
+              <li>Does this worry concern me?</li>
+              <li>Can I take action that will directly resolve it?</li>
+              <li>Is it a good use of the limited resources available to me?</li>
             </ul>
+            <p className="text-gray-600">
+              If you answer "no" to any of these questions, it's a sign that this worry can be postponed or let go.
+              This helps you focus your energy on concerns that truly need your attention.
+            </p>
           </div>
         </section>
       </div>
